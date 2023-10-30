@@ -18,7 +18,7 @@ public class ListExample {
         for (int i = 0; i < prices.size(); i++) {
             System.out.println(prices.get(i));
         }
-
+//
         prices.set(1,5);
         System.out.println(prices.get(1));
 
@@ -40,10 +40,6 @@ public class ListExample {
         System.out.println(prices.contains(4));
 
         List<String> immutableList = Arrays.asList("abc","bcd","def");
-
-
-
-
 
         immutableList.add("sdfg");
         System.out.println(immutableList);
